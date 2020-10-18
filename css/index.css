@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1{
+    text-align: center;
+    color: indigo;
+    font-style: italic;
+    margin: 50px;
+}
+#d{
+    position: relative;
+}
+#d1{
+    background-color: lightblue;
+    border: black solid 1px;
+    margin: 10px;
+    padding: 45px 5px 10px 5px;
+}
+
+#d2{
+    background-color: lightgreen;
+    border: black solid 1px;
+    margin: 10px;
+    padding: 45px 5px 10px 5px;
+
+}
+#d3{
+    background-color: lightpink;
+    border: black solid 1px;
+    margin: 10px;
+    padding: 45px 5px 10px 5px;
+}
+
+#h1{
+    float:right;
+    clear: both;
+    position: relative;
+    right: -5px;
+    top: -45px;
+    width: 20%;
+    background-color: brown ;
+    border: black solid 1px;
+    text-align: center;
+    
+    padding : 10px 20px 10px 20px;
+
+}
+#h2{
+    float:right;
+    clear: both;
+    position: relative;
+    right: -5px;
+    top: -45px;
+    width: 20%;
+    background-color:green ;
+    border: black solid 1px;
+    text-align: center;
+    padding : 10px 20px 10px 20px;
+}
+#h3{
+    float:right;
+    clear: both;
+    position: relative;
+    right: -5px;
+    top: -45px;
+    width: 20%;
+    background-color:red ;
+    border: black solid 1px;
+    text-align: center;
+    padding : 10px 20px 10px 20px;;
+}
+
+
+@media (min-width:992px){
+    #d1 , #d2 ,#d3{
+        float: left;
+        width: 31%;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:991px){
+    #d1 , #d2 {
+        float: left;
+        width: 47%;
+        
+    }
+    #d3 {
+        clear: both;
+    }
+
+}
+
+@media( max-width:767px){
+
+}
